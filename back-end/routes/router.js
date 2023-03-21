@@ -1,11 +1,16 @@
 const express = require('express')
 const router = express.Router()
 
-router.get('/', (req, res) => {
-    res.status(200).send({ titulo: 'home' })
-})
-router.get('/produtos', (req, res) => {
-    res.status(200).send({ titulo: 'home' })
-})
+const solicitarProdutos = require('../controller/solicitarProdutos.js')
+const solicitarOfertas = require('../controller/solicitarOfertas.js')
+const registrarUsuario = require('../controller/registrarUsuario.js')
+const validarUsuario = require('../controller/validarUsuario.js')
+
+
+
+router.get('/ofertas',  solicitarOfertas);
+router.get('/produtos', solicitarProdutos);
+router.get('/registrar', registrarUsuario);
+router.get('/login', validarUsuario);
 
 module.exports = router
