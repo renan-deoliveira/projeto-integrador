@@ -1,8 +1,11 @@
-const express = require('express');
-const routes = express();
+const express = require('express')
+const router = express.Router()
 
-routes.get('/',(req, res)=>{
-    res.status(200).send({titulo: 'home'})
+router.get('/', (req, res) => {
+    res.status(200).send({ titulo: 'home' })
+})
+router.get('/produtos', (req, res) => {
+    res.status(200).send({ titulo: 'home' })
 })
 
-export default routes;
+module.exports = router
