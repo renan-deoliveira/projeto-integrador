@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .header{
   background-color: #1C0A89;
   color: #ffffff;
@@ -43,4 +45,38 @@
   border-radius: 50%;
   height: fit-content;
   padding: 2px;
+}
+
+.footer{
+  display: flex;
+  flex-direction:row;
+  background-color: #29A39B;
+  justify-content: space-between;
+  height: 100px;
+}
+.footer_contact{
+align-items: center;
+justify-content: center;
+font-family: 'Inter', sans-serif;
+margin-left: 40px;
+font-size: 13px;
+font-weight: bold;
+}
+.footer_contact h2{
+  margin-top: 7px
+}
+.footer_contact p{
+  margin: 10px 0px;
+}
+.footer_social ul li{
+  width: 140px;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  margin-right: 55px;
+}
+.footer_social ul li img{
+  width: 35px;
+  color: #ffffff;
+  margin: 0px 15px 5px;
 }
