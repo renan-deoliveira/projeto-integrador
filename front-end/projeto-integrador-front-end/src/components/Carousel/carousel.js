@@ -21,10 +21,10 @@ export default function Carousel()  {
     ];
 
     const prevClick = () => {
-        setImageIndex(imageIndex > 0 ? imageIndex - 1 : imageIndex + 2/*images.length*/);
+        setImageIndex(imageIndex > 0 ? imageIndex - 1 : imageIndex + (images.length - 1));
     };
     const nextClick = () => {
-        setImageIndex(imageIndex < 2 ? imageIndex + 1 : imageIndex - 2/*images.length*/);
+        setImageIndex(imageIndex < images.length - 1 ? imageIndex + 1 : imageIndex - (images.length - 1));
     };
 
     return(
