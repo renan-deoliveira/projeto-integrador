@@ -80,3 +80,38 @@ font-weight: bold;
   color: #ffffff;
   margin: 0px 15px 5px;
 }
+.imageAndbuttons{
+  position:relative ;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.leftButtons{
+  width: 30px ;
+  height: 30px ;
+  font-size: 20px ;
+  border-radius: 50% ;
+  position:absolute ;
+  top: 50%;
+  left: 200px;
+}
+.rigthButtons{
+  width: 30px ;
+  height: 30px ;
+  font-size: 20px ;
+  border-radius: 50% ;
+  position:absolute ;
+  top: 50%;
+  right: 200px;
+}
+.carrousel{
+  margin-top: 15px;
+
+}
+.bools{
+  margin-left: 48%;
+}
+.img{
+  height: 300px;
+}
