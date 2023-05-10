@@ -84,19 +84,10 @@ font-weight: bold;
   position:relative ;
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
 }
-.leftButtons{
-  width: 30px ;
-  height: 30px ;
-  font-size: 20px ;
-  border-radius: 50% ;
-  position:absolute ;
-  top: 50%;
-  left: 200px;
-}
-.rigthButtons{
+.Buttons{
   width: 30px ;
   height: 30px ;
   font-size: 20px ;
@@ -106,12 +97,62 @@ font-weight: bold;
   right: 200px;
 }
 .carrousel{
-  margin-top: 15px;
-
+  margin: 15px;
+ display: flex;
 }
 .bools{
   margin-left: 48%;
 }
 .img{
   height: 300px;
+  margin: 0px 20px;
+}
+.imgLados{
+  height: 250px;
+}
+.banner{
+  width: 170px;
+  height: 330px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.img_banner{
+  width: 170px;
+  height: 170px;
+  border-radius: 10px 10px 0px 0px 
+}
+.titulo_banner{
+  font-size: 13px;
+  margin-left: 5px;
+  margin-bottom: 5px,
+}
+.calssificacao_banner{
+  font-size: 12px;
+  margin-left: 5px;
+  color: #f0cf4e;
+}
+.preco_banner{
+  font-size: 12px;
+  margin-left: 5px;
+}
+.destaque{
+margin: 20px;
+background-color: #1C0A89 ;
+border-radius: 15px;
+padding: 2px 15px 15px;
+}
+.destaque_titulo{
+  font-size: 30px;
+  display: flex;
+  background-color: #29A39B ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height:45px ;
+}
+.itens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
