@@ -26,14 +26,13 @@ export default function Carousel()  {
     const nextClick = () => {
         setImageIndex(imageIndex < images.length - 1 ? imageIndex + 1 : imageIndex - (images.length - 1));
     };
-
     return(
         <>
             <div className={styles.carrousel}>
                 <div className={styles.imageAndbuttons}>
-                    <button onClick={prevClick} className={styles.leftButtons}>⇠</button>
+                    <button onClick={prevClick} key ='1'className={styles.Buttons}>⇠</button>
                     <img src={images[imageIndex].src} alt={images[imageIndex].alt} className={styles.img}/>
-                    <button onClick={nextClick} className={styles.rigthButtons}>⇢</button>
+                    <button onClick={nextClick} className={styles.Buttons}>⇢</button>
                 </div>
                 <div className={styles.bools}>
                     {images.map((image, index) =>(
