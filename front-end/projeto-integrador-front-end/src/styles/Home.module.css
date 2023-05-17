@@ -105,7 +105,9 @@ font-weight: bold;
   height: 350px;
   margin: 0px 20px;
 }
-
+.imgLados{
+  height: 250px;
+}
 .banner{
   width: 170px;
   height: 330px;
