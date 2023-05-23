@@ -6,8 +6,9 @@ export default function Header() {
             <header className={styles.header}>
                 <a href='/'>Logo</a>
                 <input placeholder='Olá, oque você está proucurando?' type='text' />
-                <a href='/produtos'>Produtos</a>
+                <a href='/'>Home</a>
                 <a href='/ofertas'>Ofertas</a>
+                <a href='/cadastro'>Cadastro</a>
                 <div className={styles.header__login}>
                     <img src='/assets/avatar-login.png' width='35px' height='35px' />
                     <div className={styles.header__login__description}>
