@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Carousel from '@/components/Carousel/carousel'
 import Destaque from '@/components/Destaque/Destaque'
@@ -17,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Carousel/>
-        <Destaque/>
+        <Carousel />
+        <Destaque />
       </main>
     </>
   )
