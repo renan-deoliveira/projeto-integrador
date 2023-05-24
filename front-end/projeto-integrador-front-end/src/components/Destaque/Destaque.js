@@ -1,5 +1,5 @@
 import styles from '../../styles/Home.module.css'
-// import Item from "../Item/item";
+import Item from "../Item/item";
 
 export default function Destaque() {
     const items = [
