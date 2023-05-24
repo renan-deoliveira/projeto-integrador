@@ -29,12 +29,12 @@ export default function Carousel()  {
     return(
         <>
             <div className={styles.carrousel}>
-                <div className={styles.imageAndbuttons}>
-                    <button onClick={prevClick} key ='1'className={styles.Buttons}>⇠</button>
-                    <img src={images[imageIndex].src} alt={images[imageIndex].alt} className={styles.img}/>
-                    <button onClick={nextClick} className={styles.Buttons}>⇢</button>
+                <div className={styles.carrousel_itens}>
+                    <button onClick={prevClick} key ='1'className={styles.carrousel_buttons}>⇠</button>
+                    <img src={images[imageIndex].src} alt={images[imageIndex].alt} className={styles.carrousel_img}/>
+                    <button onClick={nextClick} className={styles.carrousel_buttons}>⇢</button>
                 </div>
-                <div className={styles.bools}>
+                <div className={styles.carrousel_bools}>
                     {images.map((image, index) =>(
                         <span key={index} onClick={() => setImageIndex(index)} >
                             {imageIndex === index ? "●" : "○"}

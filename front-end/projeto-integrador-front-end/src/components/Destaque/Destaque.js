@@ -4,7 +4,7 @@ import Item from "../Item/item";
 export default function Destaque() {
     const items = [
         {
-            src: "/assets/fifa.png",
+            src: "/assets/fifa.webp",
             preco: 137,
             parcelas: 5,
             valorDaParcela: 28,
@@ -58,7 +58,7 @@ export default function Destaque() {
         <>
             <div className={styles.destaque}>
                 <h2 className={styles.destaque_titulo}>Destaques</h2>
-                <div className={styles.itens}>
+                <div className={styles.destaque_iten}>
                     {items.map(function (item, index) {
                         return <Item props={item} key={index} />
                     })}
