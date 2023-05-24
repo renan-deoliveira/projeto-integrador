@@ -6,7 +6,6 @@ import Carousel from '@/components/Carousel/carousel'
 import Destaque from '@/components/Destaque/Destaque'
 
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
