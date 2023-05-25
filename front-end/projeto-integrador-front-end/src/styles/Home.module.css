@@ -147,5 +147,47 @@ font-weight: bold;
   font-size: 12px;
   margin-left: 8px;
 }
+.form_title{
+  display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.form{
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+  }
+.form_input {
+border-radius: 12px ;
+height: 45px;
+border-color:#29A39B
+}
+.form_label{
+  margin: 0px 0px 5px 5px;
 
+}
+.form_submit{
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 180px;
+  height:30px;
+  font-size: medium;
 
+}
+.form_all{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+.form_input_file{
+  display:flex ;
+  border-width: 2px;
+  border-style: dotted;
+  border-radius: 12px ;
+  align-items: center;
+  justify-content: center;
+  height: 120px ;
+}
