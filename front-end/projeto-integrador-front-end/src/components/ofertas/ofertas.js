@@ -1,7 +1,7 @@
 import styles from '../../styles/Home.module.css'
 import Item from "../Item/item";
 
-export default function Destaque() {
+export default function ofertas() {
     const items = [
         {
             src: "/assets/fifa.webp",
@@ -48,17 +48,17 @@ export default function Destaque() {
             preco: 184,
             parcelas: 5,
             valorDaParcela: 37,
-            titulo: "Couter Striker",
-            console: "Xbox Serie X",
+            titulo: "Counter Striker",
+            console: "PS4",
             classificacao: 4,
             alt: "item 5"
         }
     ];
     return (
         <>
-            <div className={styles.destaque}>
-                <h2 className={styles.destaque_titulo}>Destaques</h2>
-                <div className={styles.destaque_iten}>
+            <div className={styles.ofertas}>
+                <h2 className={styles.ofertas_titulo}>ofertas</h2>
+                <div className={styles.ofertas_iten}>
                     {items.map(function (item, index) {
                         return <Item props={item} key={index} />
                     })}
