@@ -14,7 +14,24 @@ const Produtos = DB.define('Produtos', {
     picture: {
         type: DataTypes.STRING,
         allowNull: true
+    },
+    parcelas: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
+    console: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
+    altText: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
+    rating: {
+        type: DataTypes.STRING,
+        allowNull: true
     }
+
 });
 
 DB.sync();
