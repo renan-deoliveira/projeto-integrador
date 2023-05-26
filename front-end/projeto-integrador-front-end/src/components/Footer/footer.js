@@ -20,6 +20,15 @@ export default function Footer()  {
                     <a href="https://www.instagram.com/">
                     <img src="/assets/instagran.png"/>                            
                         </a >Instagran</li>
+                        <li>
+                     <img src="/assets/playstation.png" alt="PlayStation" />
+                     </li>
+                     <li>
+                     <img src="/assets/xbox.png" alt="Xbox" />
+                     </li>
+                     <li>
+                     <img src="/assets/nintendo.png" alt="Nintendo" />
+                     </li>
                     </ul> 
                 </div>
             </footer>
