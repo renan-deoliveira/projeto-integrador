@@ -3,7 +3,7 @@ const { Sequelize } = require('sequelize')
 const DB = new Sequelize(
     'projetoIntegrador',
     'root',
-    'oLIVEIRa',
+    '',
     {
         host: 'localhost',
         dialect: 'mysql'
